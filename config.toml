@@ -1,0 +1,24 @@
+languageCode = "en-us"
+title = "Peter"
+baseurl = "http://pkoul.com/"
+theme = "prologue"
+
+[params]
+  name = "Peter Koulouris"
+  description = "Artist"
+  copyright = "2018"
+
+[[params.social]]
+  medium = "instagram"
+  icon = "instagram"
+  link = "#"
+
+[[params.social]]
+  medium = "facebook"
+  icon = "facebook"
+  link = "#"
+
+[[params.social]]
+  medium = "email"
+  icon = "envelope"
+  link = "#"
