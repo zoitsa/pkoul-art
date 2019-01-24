@@ -7,6 +7,7 @@ theme = "prologue"
   name = "Peter Koulouris"
   description = "Artist"
   copyright = "2018"
+  logo = "img/avatar.jpg"
 
 [[params.social]]
   medium = "instagram"

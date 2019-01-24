@@ -36,14 +36,13 @@
 				</div>
 				<!-- Main -->
 			<div id="main">
+				<header>
+					<img src="{{ .Params.image | absURL}}" width="100%"/>
+				</header>
 				<div class="container">
-					<header>
-						<img src="{{ .Params.image | absURL}}" width="100%"/>
-						<h2>{{ .Title }}</h2>
-					</header>
-
+					<h2>{{ .Title }}</h2>
 					<article>
-							<p>{{ .Content }}</p>
+						<p>{{ .Content }}</p>
 					</article>
 
 				</div>
@@ -57,5 +56,14 @@
 							{{ .Content }}
 					</article>
 			</div> -->
+			<!-- Scripts -->
+			<script src="/js/jquery.min.js"></script>
+			<script src="/js/jquery.scrolly.min.js"></script>
+			<script src="/js/jquery.scrollzer.min.js"></script>
+			<script src="/js/skel.min.js"></script>
+			<script src="/js/util.js"></script>
+			<!--[if lte IE 8]><script src="/js/ie/respond.min.js"></script><![endif]-->
+			<script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
+			<script src="/js/main.js"></script>
 	</body>
 </html>

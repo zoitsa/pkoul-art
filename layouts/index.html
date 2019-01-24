@@ -13,7 +13,6 @@
 								2. Standard link (sends the user to another page/site)
 
 								   <li><a href="http://foobar.tld" id="foobar-link" class="icon fa-whatever-icon-you-want"><span class="label">Foobar</span></a></li>
-
 							-->
 							<ul>
 								<li><a href="#top" id="top-link" class="skel-layers-ignoreHref"><span class="icon fa-home">Intro</span></a></li>
@@ -26,16 +25,13 @@
 				</div>
 
 				<div class="bottom">
-
 					<!-- Social Icons -->
-						<ul class="icons">
-              {{ range .Site.Params.social }}
-              <li><a href="{{ .link }}" class="icon fa-{{ .icon }}"><span class="label">{{ .medium }}</span></a></li>
-              {{ end }}
-						</ul>
-
+					<ul class="icons">
+						{{ range .Site.Params.social }}
+						<li><a href="{{ .link }}" class="icon fa-{{ .icon }}"><span class="label">{{ .medium }}</span></a></li>
+						{{ end }}
+					</ul>
 				</div>
-
 			</div>
 
 		<!-- Main -->
@@ -70,103 +66,77 @@
 							Tellus erat mauris ipsum fermentum etiam vivamus eget. Nunc nibh morbi quis
 							fusce hendrerit lacus ridiculus.</p>
 				
-                <div class="grid" >
-					{{ range .Pages }} 
-						<div class="item grid-item" >
-							<a href="{{ .URL }}" class="image fit"><img src="{{ .Params.image }}" /></a>
-							<!-- <header>
-								<h3>{{ .Title }}</h3>
-							</header> -->
-						</div>
-					{{ end }}
-                </div>
-
-                <!-- <div class="4u 12u$(mobile)">
-                  {{ range .Site.Params.portfolio2 }} 
-                  <article class="item">
-                    <a href="{{ .url }}" class="image fit"><img src="{{ .source }}" alt="{{ .alt }}" /></a>
-                    <header>
-                      <h3>{{ .title }}</h3>
-                    </header>
-                  </article>
-                  {{ end }}
-                </div>
-
-                <div class="4u 12u$(mobile)">
-                  {{ range .Site.Params.portfolio3 }} 
-                  <article class="item">
-                    <a href="{{ .url }}" class="image fit"><img src="{{ .source }}" alt="{{ .alt }}" /></a>
-                    <header>
-                      <h3>{{ .title }}</h3>
-                    </header>
-                  </article>
-                  {{ end }}
-                </div> -->
-              <!-- </div> -->
+					<div class="grid" >
+						{{ range .Pages }} 
+							<div class="item grid-item" >
+								<a href="{{ .URL }}" class="image fit"><img src="{{ .Params.image }}" /></a>
+								<!-- <header>
+									<h3>{{ .Title }}</h3>
+								</header> -->
+							</div>
+						{{ end }}
+					</div>
 
 
-						</div>
-					</section>
+					</div>
+				</section>
 
 				<!-- About Me -->
-					<section id="about" class="three">
-						<div class="container">
+				<section id="about" class="three">
+					<div class="container">
 
-							<header>
-								<h2>About Me</h2>
-							</header>
+						<header>
+							<h2>About Me</h2>
+						</header>
 
-							<a href="#" class="image featured"><img src="img/about.jpg" alt="" /></a>
+						<a href="#" class="image featured"><img src="img/about.jpg" alt="" /></a>
 
-							<p>Tincidunt eu elit diam magnis pretium accumsan etiam id urna. Ridiculus
-							ultricies curae quis et rhoncus velit. Lobortis elementum aliquet nec vitae
-							laoreet eget cubilia quam non etiam odio tincidunt montes. Elementum sem
-							parturient nulla quam placerat viverra mauris non cum elit tempus ullamcorper
-							dolor. Libero rutrum ut lacinia donec curae mus vel quisque sociis nec
-							ornare iaculis.</p>
+						<p>Tincidunt eu elit diam magnis pretium accumsan etiam id urna. Ridiculus
+						ultricies curae quis et rhoncus velit. Lobortis elementum aliquet nec vitae
+						laoreet eget cubilia quam non etiam odio tincidunt montes. Elementum sem
+						parturient nulla quam placerat viverra mauris non cum elit tempus ullamcorper
+						dolor. Libero rutrum ut lacinia donec curae mus vel quisque sociis nec
+						ornare iaculis.</p>
 
-						</div>
-					</section>
+					</div>
+				</section>
 
 				<!-- Contact -->
-					<section id="contact" class="four">
-						<div class="container">
+				<section id="contact" class="four">
+					<div class="container">
 
-							<header>
-								<h2>Contact</h2>
-							</header>
+						<header>
+							<h2>Contact</h2>
+						</header>
 
-							<p>Elementum sem parturient nulla quam placerat viverra
-							mauris non cum elit tempus ullamcorper dolor. Libero rutrum ut lacinia
-							donec curae mus. Eleifend id porttitor ac ultricies lobortis sem nunc
-							orci ridiculus faucibus a consectetur. Porttitor curae mauris urna mi dolor.</p>
+						<p>Elementum sem parturient nulla quam placerat viverra
+						mauris non cum elit tempus ullamcorper dolor. Libero rutrum ut lacinia
+						donec curae mus. Eleifend id porttitor ac ultricies lobortis sem nunc
+						orci ridiculus faucibus a consectetur. Porttitor curae mauris urna mi dolor.</p>
 
-							<form method="post" action="#">
-								<div class="row">
-									<div class="6u 12u$(mobile)"><input type="text" name="name" placeholder="Name" /></div>
-									<div class="6u$ 12u$(mobile)"><input type="text" name="email" placeholder="Email" /></div>
-									<div class="12u$">
-										<textarea name="message" placeholder="Message"></textarea>
-									</div>
-									<div class="12u$">
-										<input type="submit" value="Send Message" />
-									</div>
+						<form method="post" action="#">
+							<div class="row">
+								<div class="6u 12u$(mobile)"><input type="text" name="name" placeholder="Name" /></div>
+								<div class="6u$ 12u$(mobile)"><input type="text" name="email" placeholder="Email" /></div>
+								<div class="12u$">
+									<textarea name="message" placeholder="Message"></textarea>
 								</div>
-							</form>
+								<div class="12u$">
+									<input type="submit" value="Send Message" />
+								</div>
+							</div>
+						</form>
 
-						</div>
-					</section>
-
+					</div>
+				</section>
 			</div>
 
 		<!-- Footer -->
 			<div id="footer">
-
 				<!-- Copyright -->
-					<ul class="copyright">
-						<li>&copy; {{ .Site.Params.copyright }}</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li><li>Powered by <a href="https://gohugo.io/">Hugo</a></li>
-					</ul>
-
+				<ul class="copyright">
+					<li>&copy; {{ .Site.Params.copyright }}</li>
+				</ul>
 			</div>
 
 		<!-- Scripts -->
