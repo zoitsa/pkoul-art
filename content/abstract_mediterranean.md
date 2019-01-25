@@ -3,7 +3,7 @@
     "title": "Abstract Mediterranean",
     "date": 2019-01-25T14:05:53-05:00,
     "image": "img/portfolio/abstract_mediterranean.jpg",
-    "draft": true,
+    "draft": false,
 	"category": ["abstract"],
 	"available": true,
 }

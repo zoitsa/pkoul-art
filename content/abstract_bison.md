@@ -3,7 +3,7 @@
     "title": "Abstract Bison",
     "date": 2019-01-25T13:31:49-05:00,
     "image": "img/portfolio/abstract_bison.jpg",
-    "draft": true,
+    "draft": false,
     "category": ["abstract"],
     "available": false,
 }

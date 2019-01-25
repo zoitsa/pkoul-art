@@ -3,7 +3,7 @@
     "title": "Roman Wall Set",
     "date": 2019-01-25T14:13:43-05:00,
     "image": "img/portfolio/roman_wall_set.jpg",
-    "draft": true,
+    "draft": false,
     "category": ["abstract"],
     "available": true,
 }

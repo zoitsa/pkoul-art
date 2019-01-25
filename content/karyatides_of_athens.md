@@ -3,7 +3,7 @@
     "title": "Karyatides of Athens",
     "date": 2019-01-25T14:13:05-05:00,
     "image": "img/portfolio/karyatides_of_athens.jpg",
-    "draft": true,
+    "draft": false,
     "category": ["landscape"],
     "available": true,
 }

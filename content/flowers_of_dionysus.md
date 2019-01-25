@@ -3,7 +3,7 @@
     "title": "Flowers of Dionysus",
     "date": 2019-01-25T14:12:13-05:00,
     "image": "img/portfolio/flowers_of_dionysus.jpg",
-    "draft": true,
+    "draft": false,
     "category": ["still life", "abstract"],
     "available": false,
 }

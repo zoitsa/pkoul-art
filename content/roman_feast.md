@@ -3,7 +3,7 @@
     "title": "Roman Feast",
     "date": 2019-01-25T14:13:29-05:00,
     "image": "img/portfolio/roman_feast.jpg",
-    "draft": true,
+    "draft": false,
     "category": ["still life", "abstract"],
 }
 ---

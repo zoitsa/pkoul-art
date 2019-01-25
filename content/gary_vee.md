@@ -3,7 +3,7 @@
     "title": "Gary Vee",
     "date": 2019-01-25T14:12:36-05:00,
     "image": "img/portfolio/gary_vee.jpg",
-    "draft": true,
+    "draft": false,
     "category": ["portrait"],
     "available": true,
 }
