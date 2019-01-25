@@ -12,14 +12,14 @@ theme = "prologue"
 [[params.social]]
   medium = "instagram"
   icon = "instagram"
-  link = "#"
+  link = "https://www.instagram.com/pkoul/"
 
 [[params.social]]
   medium = "facebook"
   icon = "facebook"
-  link = "#"
+  link = "https://www.facebook.com/pgkoulouris"
 
 [[params.social]]
-  medium = "email"
-  icon = "envelope"
-  link = "#"
+  medium = "linkedin"
+  icon = "linkedin"
+  link = "https://www.linkedin.com/in/peter-koulouris-436001109/"

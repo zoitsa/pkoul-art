@@ -4,7 +4,7 @@
     "date": {{ .Date }},
     "image": "",
     "draft": true,
-    "category": "",
+    "category": [""],
     "available": "",
 }
 ---

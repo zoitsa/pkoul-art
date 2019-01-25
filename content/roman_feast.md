@@ -4,7 +4,8 @@
     "date": 2019-01-25T14:13:29-05:00,
     "image": "/img/portfolio/roman_feast.jpg",
     "draft": false,
-    "category": ["still life", "abstract"],
+	"category": ["still life", "abstract"],
+	"available": true,
 }
 ---
 
