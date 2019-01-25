@@ -2,7 +2,7 @@
 {
     "title": "The Confessor",
     "date": 2019-01-25T14:14:08-05:00,
-    "image": "img/portfolio/the_confessor.jpg",
+    "image": "/img/portfolio/the_confessor.jpg",
     "draft": false,
     "category": "iconography",
 }

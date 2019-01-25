@@ -2,7 +2,7 @@
 {
     "title": "Amo Nadim of Taybeh",
     "date": 2019-01-25T14:10:37-05:00,
-    "image": "img/portfolio/amo_nadim_of_taybeh.jpg",
+    "image": "/img/portfolio/amo_nadim_of_taybeh.jpg",
     "draft": false,
     "category": ["portrait"],
     "available": false,

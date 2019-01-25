@@ -2,7 +2,7 @@
 {
     "title": "Hagia Sofia",
     "date": 2019-01-25T14:12:50-05:00,
-    "image": "img/portfolio/hagia_sofia.jpg",
+    "image": "/img/portfolio/hagia_sofia.jpg",
     "draft": false,
     "category": ["landscape"],
     "available": false,

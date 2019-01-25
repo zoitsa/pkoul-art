@@ -2,7 +2,7 @@
 {
     "title": "Bear Tooth Bison Family",
     "date": 2019-01-25T14:11:04-05:00,
-    "image": "img/portfolio/bear_tooth_bison_family.jpg",
+    "image": "/img/portfolio/bear_tooth_bison_family.jpg",
     "draft": false,
     "category": ["landscape"],
     "available": true,

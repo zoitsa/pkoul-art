@@ -2,7 +2,7 @@
 {
     "title": "Alexandra",
     "date": 2019-01-25T14:10:15-05:00,
-    "image": "img/portfolio/alexandra.jpg",
+    "image": "/img/portfolio/alexandra.jpg",
     "draft": false,
     "category": ["portrait"],
     "available": false,

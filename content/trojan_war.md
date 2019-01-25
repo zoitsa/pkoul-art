@@ -2,7 +2,7 @@
 {
     "title": "Trojan War",
     "date": 2019-01-25T14:14:19-05:00,
-    "image": "img/portfolio/trojan_war.jpg",
+    "image": "/img/portfolio/trojan_war.jpg",
     "draft": false,
     "category": ["abstract"],
     "available": false,

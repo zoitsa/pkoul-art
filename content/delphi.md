@@ -2,7 +2,7 @@
 {
     "title": "Delphi",
     "date": 2019-01-25T14:11:47-05:00,
-    "image": "img/portfolio/delphi.jpg",
+    "image": "/img/portfolio/delphi.jpg",
     "draft": false,
     "category": ["landscape"],
     "available": true,

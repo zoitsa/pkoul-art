@@ -2,7 +2,7 @@
 {
     "title": "Zoe of Montreal",
     "date": 2019-01-25T14:14:28-05:00,
-    "image": "img/portfolio/zoe_of_montreal.jpg",
+    "image": "/img/portfolio/zoe_of_montreal.jpg",
     "draft": false,
     "category": "",
     "avaialble": false,

@@ -2,7 +2,7 @@
 {
     "title": "Elder St. Paisios of Athos",
     "date": 2019-01-25T14:13:56-05:00,
-    "image": "img/portfolio/st_paisios_of_athos.png",
+    "image": "/img/portfolio/st_paisios_of_athos.png",
     "draft": false,
     "category": ["portrait"],
     "available": false,
