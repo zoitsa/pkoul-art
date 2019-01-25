@@ -16,6 +16,10 @@
   #single-header {
     margin-top: 2em;
   }
+
+  .grid-item #available {
+    color: #e27689;
+  }
   
   /* Masonry on large screens */
   @media only screen and (min-width: 1024px) {
